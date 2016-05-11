@@ -5,6 +5,8 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.7
 
+defaultTasks = ["clean", "build", "test"]
+
 repositories {
     mavenCentral()
 }
