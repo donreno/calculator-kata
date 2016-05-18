@@ -52,6 +52,12 @@ public class CalculatorTest {
     }
 
     //TODO restar dos números
+
+
+    @Test
+    public void shouldSubstractTwoPositiveNumbers() throws Exception {
+        assertThat(calculator.calculate("4-2"), is(2));
+    }
 }
 
 
